@@ -46,4 +46,9 @@ int main()
     cout<<"The second largest number is: "<<secMax<<endl;
 
     return 0;
+
+    // will set the starting two numbers as max and second max. 
+    //Then will run the loop from i = 2.
+    // if the element is greater than max will make max as element and 
+    //will check if the elemnet is greater than secMax and less than max will make second max as element.
 }
